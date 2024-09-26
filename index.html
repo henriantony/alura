@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imobiliária Campinas - Seu Imóvel Ideal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #3e0066;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            background-color: #2d004d;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        .banner {
+            background-image: url('img/campinas_banner.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .banner h2 {
+            font-size: 3em;
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        .secao {
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        .secao h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #3e0066;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin-bottom: 20px;
+            transition: transform 0.2s;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        .card-content h3 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #3e0066;
+        }
+
+        .card-content p {
+            font-size: 1em;
+            margin: 10px 0;
+        }
+
+        footer {
+            background-color: #2d004d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3e0066;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 700;
+        }
+
+        .btn:hover {
+            background-color: #5b007f;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            flex: 1 1 30%;
+            margin: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Imobiliária Campinas</h1>
+        <p>Encontre o imóvel perfeito na região de Campinas</p>
+    </header>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Imóveis à Venda</a>
+        <a href="#">Imóveis para Alugar</a>
+        <a href="#">Contato</a>
+        <a href="#">Sobre Nós</a>
+    </nav>
+
+    <section class="banner">
+        <h2>O Melhor Lugar para Morar em Campinas</h2>
+    </section>
+
+    <section class="container secao">
+        <h2>Imóveis em Destaque</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="img/imovel1.jpg" alt="Casa no Cambuí">
+                <div class="card-content">
+                    <h3>Casa no Cambuí</h3>
+                    <p>3 quartos, 2 banheiros, 2 vagas - R$ 750.000</p>
+                    <a href="#" class="btn">Ver Detalhes</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="img/imovel2.jpg" alt="Apartamento no Taquaral">
+                <div class="card-content">
+                    <h3>Apartamento no Taquaral</h3>
+                    <p>2 quartos, 1 banheiro, 1 vaga - R$ 450.000</p>
+                    <a href="#" class="btn">Ver Detalhes</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="img/imovel3.jpg" alt="Casa em Barão Geraldo">
+                <div class="card-content">
+                    <h3>Casa em Barão Geraldo</h3>
+                    <p>4 quartos, 3 banheiros, 2 vagas - R$ 1.200.000</p>
+                    <a href="#" class="btn">Ver Detalhes</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container secao">
+        <h2>Por que escolher Campinas?</h2>
+        <p>Campinas é uma das cidades mais desenvolvidas do estado de São Paulo, com uma excelente infraestrutura, além de
+            diversas opções de lazer, cultura e uma crescente oferta de imóveis de alto padrão.</p>
+    </section>
+
+    <footer>
+        <p>© 2024 Imobiliária Campinas - Todos os direitos reservados para Projeto Alura de Henri Antony</p>
+        <p>
+            <a href="#">Política de Privacidade</a> | 
+            <a href="#">Termos de Uso</a> | 
+            <a href="#">Contato</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
